@@ -235,6 +235,9 @@ h6 {
   color: var(--contrast-color);
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
 }
+.progress-bar{
+  background-color: #198754 !important;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -349,6 +352,10 @@ h6 {
 .navmenu .dropdown>.dropdown-active {
   display: block;
   background-color: rgba(33, 37, 41, 0.03);
+}
+
+.smiley-yellow{
+  color: #FFCC00 !important;
 }
 
 
