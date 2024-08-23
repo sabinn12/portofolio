@@ -2,8 +2,7 @@
 
 (function() {
   "use strict";
-  //new header 
-
+  
   
 
   /**
@@ -42,16 +41,7 @@
     });
   });
 
-  /**
-   * Preloader
-   */
-  const preloader = document.querySelector('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove();
-    });
-  }
-
+ 
   
   
 
@@ -185,6 +175,11 @@
   }
 
   window.addEventListener("load", initSwiper);
+  //year
+  document.addEventListener('DOMContentLoaded', function() {
+    const currentYear = new Date().getFullYear();
+    document.getElementById('current-year').textContent = currentYear;
+  });
 
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
