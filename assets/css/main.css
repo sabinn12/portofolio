@@ -1270,3 +1270,10 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+
+
+.sent-message, .error-message {
+  display: none;
+  color: green; /* Or red for error */
+}
+
