@@ -129,20 +129,7 @@ h6 {
 .icon-size {
   font-size: 1.5rem;
 }
-.buy-coffee-btn {
-  background-color: #FFDD00;
-  color: #000;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
 
-.buy-coffee-btn:hover {
-  background-color: #FFC700;
-}
 
 /*--------------------------------------------------------------
 # Global Header
